@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{e52441c9-8b0b-4bc0-9e51-d36b3ff78a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{677be73b-f8e2-40b9-a423-ca76b1b631bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{2f5b8aec-72cd-497c-b47c-28d48587a6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{18249165-0904-47b7-b861-27633211b2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\proc">
+      <UniqueIdentifier>{98e67ad4-386f-41da-a8de-806823671689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proc">
+      <UniqueIdentifier>{2c96b73d-7176-43f5-98d1-f916f871479c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\app">
+      <UniqueIdentifier>{7deb544c-5baf-4dfe-9e36-ab2589b9b917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\app">
+      <UniqueIdentifier>{f120e663-b712-4954-89c5-3461a6da4702}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Image.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IO\Loader.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IO\LoaderOCV.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\Scaler.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\ScalerFactory.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\ScalerOCV.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\ScalerSelfSim2x.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ImageChannels.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\ScalerDDT.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\ScalerEEP.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proc\Scaler2x.cpp">
+      <Filter>Source Files\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\controller.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\model.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\view.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\Image.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IO\Loader.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Err.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Common.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IO\LoaderOCV.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IO\IO.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\Scaler.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\proc.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\ScalerFactory.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\ScalerOCV.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\ScalerSelfSim2x.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\ImageChannels.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\ScalerDDT.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\ScalerEEP.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proc\Scaler2x.h">
+      <Filter>Header Files\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\benchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\view.h">
+      <Filter>Header Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\controller.h">
+      <Filter>Header Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\model.h">
+      <Filter>Header Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\app.h">
+      <Filter>Header Files\app</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
